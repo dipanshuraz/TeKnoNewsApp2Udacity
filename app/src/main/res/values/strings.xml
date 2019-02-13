@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">TeKnoNews</string>
+    <string name="no_internet">No Internet Connection / No Data Received</string>
+    <string name="refresh">Refresh</string>
+    <string name="checkNewData">Checking for new articles</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Article Settings</string>
+
+    <!-- Strings For Amount of articles -->
+    <string name="settings_min_articles_label">Minimum Articles Shown</string>
+    <string name="settings_min_articles_key" translatable="false">page-size</string>
+    <string name="settings_min_articles_default" translatable="false">10</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order-by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_most_recent_value</string>
+
+    <!-- Label for order-by oldest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_label">Most Recent</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">newest</string>
+
+    <!-- Strings For Category selections -->
+    <string name="article_category_label">Article Categories</string>
+    <string name="cat_sections_key" translatable="false">section</string>
+    <string name="uk_news_label">UK News</string>
+    <string name="world_label">World</string>
+    <string name="technology_label">Technology</string>
+    <string name="politics_label">Politics</string>
+    <string name="business_label">Business</string>
+    <string name="sport_label">Sport</string>
+    <string name="education_label">Education</string>
+    <string name="fashion_label">Fashion</string>
+    <string name="travel_label">Travel</string>
+    <string name="music_label">Music</string>
+    <string name="culture_label">Culture</string>
+
+    <!-- URI Builder -->
+    <string name="uk_news_value" translatable="false">uk-news</string>
+    <string name="world_value" translatable="false">world</string>
+    <string name="technology_value" translatable="false">technology</string>
+    <string name="politics_value" translatable="false">politics</string>
+    <string name="business_value" translatable="false">business</string>
+    <string name="sport_value" translatable="false">sport</string>
+    <string name="education_value" translatable="false">education</string>
+    <string name="fashion_value" translatable="false">fashion</string>
+    <string name="travel_value" translatable="false">travel</string>
+    <string name="music_value" translatable="false">music</string>
+    <string name="culture_value" translatable="false">culture</string>
+    <string name="section_uri" translatable="false">section</string>
+    <string name="format" translatable="false">format</string>
+    <string name="showfields" translatable="false">show-fields</string>
+    <string name="showtags" translatable="false">show-tags</string>
+    <string name="pagesize" translatable="false">page-size</string>
+    <string name="orderby" translatable="false">order-by</string>
+    <string name="apikey" translatable="false">api-key</string>
+    <string name="json" translatable="false">json</string>
+    <string name="headline_thumbnail" translatable="false">headline,thumbnail</string>
+    <string name="contributor" translatable="false">contributor</string>
+    <string name="apikeyValue" translatable="false">test</string>
+
+
+</resources>
